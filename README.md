@@ -3,40 +3,29 @@
 
 **Skriv din rapport här!**
 
+I min rapport har jag en screenshot på telefonens framsida samt har jag en kod på vad jag ändrade det nya namnet till.
+Hur jag gick till väga var att jag först forkade och clonadet från github och la in det i Android studio senare ändrade koden. 
+Sen till sist tog jag screenshot comittade och pushade sen till sist skall jag skicka rapporten till github. 
+
 ![img.png](img.png)
 
-## Följande grundsyn gäller dugga-svar:
+Fördel:
+Fördelen var att det blev smidigt att skicka allt till github.
+En annan fördel var att processen med screenshot var väldigt smidigt.
 
-- Ett kortfattat svar är att föredra. Svar som är längre än en sida text (skärmdumpar och programkod exkluderat) är onödigt långt.
-- Svaret skall ha minst en snutt programkod.
-- Svaret skall inkludera en kort övergripande förklarande text som redogör för vad respektive snutt programkod gör eller som svarar på annan teorifråga.
-- Svaret skall ha minst en skärmdump. Skärmdumpar skall illustrera exekvering av relevant programkod. Eventuell text i skärmdumpar måste vara läsbar.
-- I de fall detta efterfrågas, dela upp delar av ditt svar i för- och nackdelar. Dina för- respektive nackdelar skall vara i form av punktlistor med kortare stycken (3-4 meningar).
+nackdel:
+En nackdel var att min kod SDK crashade så var tvungen att starta om hela programmmet.
 
-Programkod ska se ut som exemplet nedan. Koden måste vara korrekt indenterad då den blir lättare att läsa vilket gör det lättare att hitta syntaktiska fel.
 
 ```
-function errorCallback(error) {
-    switch(error.code) {
-        case error.PERMISSION_DENIED:
-            // Geolocation API stöds inte, gör något
-            break;
-        case error.POSITION_UNAVAILABLE:
-            // Misslyckat positionsanrop, gör något
-            break;
-        case error.UNKNOWN_ERROR:
-            // Okänt fel, gör något
-            break;
-    }
-}
+<resources>
+    <string name="app_name">Hello my name is Robin Korkmaz and I love pizza so much</string>
+</resources>
+
 ```
+Förklaring till kod: 
+String name används när man skall skriva "text". Sen "app-name" är variabeln och värdet i denna kod är:
+"Hello my name is Robin Korkmaz and I love pizza so much".
 
-Bilder läggs i samma mapp som markdown-filen.
 
-![](android.png)
-
-Läs gärna:
-
-- Boulos, M.N.K., Warren, J., Gong, J. & Yue, P. (2010) Web GIS in practice VIII: HTML5 and the canvas element for interactive online mapping. International journal of health geographics 9, 14. Shin, Y. &
-- Wunsche, B.C. (2013) A smartphone-based golf simulation exercise game for supporting arthritis patients. 2013 28th International Conference of Image and Vision Computing New Zealand (IVCNZ), IEEE, pp. 459–464.
-- Wohlin, C., Runeson, P., Höst, M., Ohlsson, M.C., Regnell, B., Wesslén, A. (2012) Experimentation in Software Engineering, Berlin, Heidelberg: Springer Berlin Heidelberg.
+L
