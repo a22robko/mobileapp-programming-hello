@@ -3,7 +3,7 @@
 
 **Skriv din rapport här!**
 
-_Du kan ta bort all text som finns sedan tidigare_.
+![img.png](img.png)
 
 ## Följande grundsyn gäller dugga-svar:
 
